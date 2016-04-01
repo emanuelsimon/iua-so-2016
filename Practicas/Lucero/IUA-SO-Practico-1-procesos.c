@@ -1,13 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
 int main() {
+	
 	int pid;
-	...
+	
 	pid = fork();
+	
 	if (pid == 0) {
-		/* hijo */
-		...
+		printf("El proceso hijo es = 0 \n");
 	} else {
-	/* padre */
-		...
+		printf("El proceso padre es = %d \n", pid);
 	}
+
 	return 0;
-	}
+}
