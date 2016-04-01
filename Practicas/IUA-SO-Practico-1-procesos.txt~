@@ -39,6 +39,7 @@ su jerarquía padre-hijo, el tercero nos permite enviar una señal al un proceso
 2. Escriba un programa (en C) que utilice la llamada fork() para 
 crear un nuevo proceso. Es necesario que cada proceso escriba un 
 mensaje diferente en pantalla.
+
 Utilice el siguiente esquema de programa
 
 int main() {
